@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Ajax</title>
+    <%--要是jQuery，需要导入,注意点：路径问题--%>
+
+</head>
+<body>
+
+<script src="${pageContext.request.contextPath}/statics/js/jquery-3.4.1.js"/>
+<script type="text/javascript">
+
+    function hello() {
+        $.ajax({
+            url:"${pageContext.request.contextPath}/ajax/a1",
+            data:{"name":$("#txtName").val()},
+            success:function (data,status) {
+                console.log(data);
+                console.log(status)
+            }
+        });
+    }
+
+</script>
+<%--onblur失去焦点产生时间--%>
+用户名：
+<input type="text" id="txtName" onblur="function x() {
+
+}">
+
+</body>
+</html>

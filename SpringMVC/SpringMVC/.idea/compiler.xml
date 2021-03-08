@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo01_servlet" />
+        <module name="demo02_springmvc_li" />
+        <module name="demo03_springmvc_model" />
+        <module name="demo04_springmvc_data" />
+        <module name="demo05_springmvc_luanma" />
+        <module name="demo06_springmvc_ajax_json" />
+        <module name="demo07_springmvc_file_intercepter" />
+        <module name="demo08_springmvc_intercepter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ajax_json" target="1.7" />
+      <module name="demo01_servlet" target="1.7" />
+      <module name="demo02_springmvc_li" target="1.7" />
+      <module name="demo03_springmvc_model" target="1.7" />
+      <module name="demo03springmvcmodel" target="1.5" />
+      <module name="demo04_springmvc_data" target="1.7" />
+      <module name="demo05_springmvc_luanma" target="1.7" />
+      <module name="demo06_springmvc_ajax_json" target="1.7" />
+      <module name="demo07_springmvc_file_intercepter" target="1.7" />
+      <module name="demo08_springmvc_intercepter" target="1.7" />
+      <module name="SpringMVC" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

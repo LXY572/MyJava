@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/target/springmvc_day01_01_start/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar!/" />
+      <root url="file://D:/java/apache-tomcat-8.5.40/bin" />
+      <root url="jar://D:/java/apache-tomcat-8.5.40/lib/servlet-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/java/apache-tomcat-8.5.40/bin" recursive="false" />
+  </library>
+</component>

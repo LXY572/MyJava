@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #search {
+            width: 500px;
+            height: 30px;
+            border: 1px solid #b6b6b6;
+            line-height: 30px;
+            display: block;
+            margin: 0 auto;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+
+        #ul {
+            width: 500px;
+            list-style: none;
+            padding-left: 0px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            margin-top: -1px;
+            display: none;
+        }
+
+        #ul li {
+            line-height: 30px;
+            padding: 0 10px;
+        }
+
+        #ul li:hover {
+            background-color: orange;
+            color: #fff;
+        }
+    </style>
+
+    <!--自己的电脑要请求百度的服务器-->
+    <script>
+
+        //拿到我们输框中的信息，并且给他增加一个属性，让他可以在键盘弹起的时候拿到百度的数据
+        window.onload = function () {
+            //获取输入框
+            var Q = document.getElementById("search");
+            var Ul = document.getElementById("ul");
+
+            //键盘或鼠标弹起的时候
+            Q.onkeyup = function () {
+                //判断如果不为空
+                if (this.value != '') {
+                    //创建标签
+                    var script = document.createElement('script');
+                    //给标签添加属性,我们需要去拿到我们自己搜索的值，拼接到百度的URL中
+                    script.src = 'https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=' + this.value + '&cb=demo';
+                    //将找到的数据追加在我们当前的元素中；
+                    document.body.appendChild(script);
+                }
+            }
+        };
+
+        //将数据渲染到前端页面即可
+        function demo(data) {
+            var Ul = document.getElementById("ul");
+            var html = '';
+            console.log(data);
+            //如果搜索数据存在
+            if (data.s.length) {
+                //显示ul li；
+                Ul.style.display = 'block';
+                for (var i = 0; i < data.s.length; i++) {
+                    html += '<li>' + data.s[i] + '</li>';
+                }
+                //数据追加到前端页面
+                Ul.innerHTML = html;
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+<!--输入框-->
+<input type="text" id="search">
+<!--隐藏的列表-->
+<ul id="ul">
+
+</ul>
+
+
+</body>
+</html>

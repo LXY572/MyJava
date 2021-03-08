@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo01_servlet/demo01_servlet.iml" filepath="$PROJECT_DIR$/demo01_servlet/demo01_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo02_springmvc_li/demo02_springmvc_li.iml" filepath="$PROJECT_DIR$/demo02_springmvc_li/demo02_springmvc_li.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo03_springmvc_model/demo03_springmvc_model.iml" filepath="$PROJECT_DIR$/demo03_springmvc_model/demo03_springmvc_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo04_springmvc_data/demo04_springmvc_data.iml" filepath="$PROJECT_DIR$/demo04_springmvc_data/demo04_springmvc_data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo05_springmvc_luanma/demo05_springmvc_luanma.iml" filepath="$PROJECT_DIR$/demo05_springmvc_luanma/demo05_springmvc_luanma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo06_springmvc_ajax_json/demo06_springmvc_ajax_json.iml" filepath="$PROJECT_DIR$/demo06_springmvc_ajax_json/demo06_springmvc_ajax_json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo07_springmvc_file_intercepter/demo07_springmvc_file_intercepter.iml" filepath="$PROJECT_DIR$/demo07_springmvc_file_intercepter/demo07_springmvc_file_intercepter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo08_springmvc_intercepter/demo08_springmvc_intercepter.iml" filepath="$PROJECT_DIR$/demo08_springmvc_intercepter/demo08_springmvc_intercepter.iml" />
+    </modules>
+  </component>
+</project>
